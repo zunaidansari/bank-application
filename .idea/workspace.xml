@@ -4,35 +4,232 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8066cebf-8f62-4ddb-bf59-05c00ccf8727" name="Changes" comment="" />
+    <list default="true" id="986d5022-2660-407f-90db-3360b69e8269" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/AccountsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/constants/AccountsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/controller/AccountsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/AccountsContactInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/AccountsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/CardsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/CustomerDetailsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/LoansDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/entity/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/mapper/AccountsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/mapper/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/repository/AccountsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/IAccountsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/ICustomersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/client/CardsFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/client/CardsFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/client/LoansFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/client/LoansFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/impl/AccountsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/zunaidansari/accounts/service/impl/CustomersServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/com/zunaidansari/accounts/AccountsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/AccountsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/audit/AuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/constants/AccountsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/controller/AccountsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/AccountsContactInfoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/AccountsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/CardsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/CustomerDetailsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/CustomerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/ErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/LoansDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/entity/Accounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/exception/CustomerAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/mapper/AccountsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/mapper/CustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/repository/AccountsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/IAccountsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/ICustomersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/client/CardsFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/client/CardsFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/client/LoansFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/client/LoansFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/impl/AccountsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/zunaidansari/accounts/service/impl/CustomersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/jib-classpath-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/jib-main-class-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/layers/22340b4a8d34881e6ab2e8fbf184d8785387d251b2bda746e913b6941b21c884/408f88987b39f744b26c7ef3e96c1ff2daa867d328b245431ffb28ebd7b06c6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/layers/523df4b91f758efa68a6e4ff3b7307c2590130ea1115c6fa39c1e60296d28d7e/ee928a9af1fe26a4ed87e80ad1e658b70f2884dc7a7dd4656d75a75a402591e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/layers/b8b326040138c4a085343be9936c992ceda154822a2c6b7b54ba182fc0c4f0f7/8b955572947ea8903023086275b1e8d0628d2f4e1b6e908a0e9082aec7c629b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/layers/cfb708b47d15a3f0b8765ebac442d95c90953114369ba831d29fa2f3bfbcc9c1/e2bccf51475a885fa4cbce1519c07ced5eb31938f37f213785d0c3a5e4e79089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/selectors/9cd81f98bbc097939d4f8e22c6f6c5466a5c7fd4318eba1c290683e2f657b33f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/selectors/adf1cd4c1e08d93d204ed926e7dd7145c9b71ff7907ff1fd0ef7dcf2cc7150da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/selectors/cc0f36b7f89f6fff656449e9b360374c1650f3f58dbb858dc80f717b8815ae60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-cache/selectors/ec944a30d1d7b4e0c0aa305198c30123aab28f7e2544ee87c991aa4c6372304f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-image.digest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-image.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/jib-image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/test-classes/com/zunaidansari/accounts/AccountsApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/CardsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/constants/CardsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/controller/CardsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/dto/CardsContactInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/dto/CardsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/entity/Cards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/exception/CardAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/mapper/CardsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/repository/CardsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/service/ICardsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/zunaidansari/cards/service/impl/CardsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/test/java/com/zunaidansari/cards/CardsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/zunaidansari/configserver/ConfigserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/com/zunaidansari/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/java/com/zunaidansari/eurekaserver/EurekaserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/test/java/com/zunaidansari/eurekaserver/EurekaserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/zunaidansari/gatewayserver/GatewayserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/zunaidansari/gatewayserver/controller/FallbackController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/zunaidansari/gatewayserver/filters/FilterUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/zunaidansari/gatewayserver/filters/RequestTraceFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/zunaidansari/gatewayserver/filters/ResponseTraceFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/test/java/com/zunaidansari/gatewayserver/GatewayserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/LoansApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/constants/LoansConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/controller/LoansController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/dto/LoansContactInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/dto/LoansDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/entity/Loans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/exception/LoanAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/mapper/LoansMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/repository/LoansRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/service/ILoansService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/zunaidansari/loans/service/impl/LoansServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/test/java/com/zunaidansari/loans/LoansApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/LoansApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/audit/AuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/constants/LoansConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/controller/LoansController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/dto/ErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/dto/LoansContactInfoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/dto/LoansDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/entity/Loans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/exception/LoanAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/mapper/LoansMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/repository/LoansRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/service/ILoansService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/zunaidansari/loans/service/impl/LoansServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/jib-classpath-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/jib-main-class-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/layers/06b9bd12f6bf7f54a08af51b1c1d4179176608797b789a351cd42abec47f8386/e68194ff0a7fe7f63a265b2b801de98b6f5b6c788638e40ebcc07113311d52b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/layers/23de146b62d464b8fccd3cea96bea1dae01dd89d71ab6baff84e0e1715fa0a36/7ff876d33da0b78ba136b53cbfb205205b042bc01e1e8a2a41cda5e17f2fffc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/layers/353a3f9389f1b20d723f3416b344581d9f5c05ff0d4d32c25dbbccc642e172bb/fa0b13d1c8837c96eeeac1682c62e4abdd9eef06566fb8e9ab8e9ffa1294b459" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/layers/d5a8c4bbb808718ca7c83d5daa89558d3fdb2a95e3f3c7f8732f2e81346172ad/b26f0a0431975b35389e40404e70230d08e15b182494912a8708a6d6db6daf13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/selectors/12c8779833cec30e4de8674f77288f70e52988f3e6fdf058145551a4453f065a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/selectors/366011b45187485f58fe2efe58a8f51df8fd5d33d339fd0f6698af2714a7f976" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/selectors/918a7dc40b4d5133c1efb197279086239eaa2b197fa3b7bc7e1b7c527c4363d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-cache/selectors/acebe8f2260b7f0f64848e80e213af5355f6df67bf067384a79167350b385f93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.digest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/test-classes/com/zunaidansari/loans/LoansApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2tiGgTkP6qstlKf4BUzv2f24OTq" />
+  <component name="ProjectId" id="2tkzL6uPTPTo2Dh2bUE2q78OSep" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Big Project/Microservices/v1-springboot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
+    "Spring Boot.EurekaserverApplication.executor": "Run",
+    "Spring Boot.GatewayserverApplication (1).executor": "Run",
+    "Spring Boot.GatewayserverApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Big Project/Microservices/v1-springboot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -43,31 +240,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MessageApplication">
-    <configuration name="ConfigserverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="configserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.configserver.ConfigserverApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="configserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zunaidansari.configserver.ConfigserverApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaserverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eurekaserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.eurekaserver.EurekaserverApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.configserver.ConfigserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zunaidansari.eurekaserver.EurekaserverApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.eurekaserver.EurekaserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,7 +258,7 @@
     <configuration name="GatewayserverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="gatewayserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.gatewayserver.GatewayserverApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.gatewayserver.GatewayserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,14 +266,7 @@
     <configuration name="GatewayserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="gatewayserver" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zunaidansari.gatewayserver.GatewayserverApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="message" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zunaidansari.message.MessageApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.gatewayserver.GatewayserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,21 +275,21 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8066cebf-8f62-4ddb-bf59-05c00ccf8727" name="Changes" comment="" />
-      <created>1740827593529</created>
+      <changelist id="986d5022-2660-407f-90db-3360b69e8269" name="Changes" comment="" />
+      <created>1740910807770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740827593529</updated>
-      <workItem from="1740827595282" duration="1014000" />
-      <workItem from="1740832006982" duration="724000" />
+      <updated>1740910807770</updated>
+      <workItem from="1740910809928" duration="547000" />
+      <workItem from="1740914182444" duration="279000" />
     </task>
     <servers />
   </component>

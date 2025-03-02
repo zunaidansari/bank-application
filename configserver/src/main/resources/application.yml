@@ -9,9 +9,9 @@ spring:
       server:
         # native:
           # search-locations: "classpath:/config"
-          # search-locations: "file:///Users//zunaidansari//Documents//config"
+          # search-locations: "file:///Users//microservice//Documents//config"
         git:
-          uri: "https://github.com/zunaidansari/zunaidansari-config.git"
+          uri: "https://github.com/microservice/microservice-config.git"
           default-label: main
           timeout: 5
           clone-on-start: true
